@@ -130,7 +130,7 @@
 
 $(document).ready(function() {
   const apiRoot = 'https://my-application-g69u.onrender.com/v1/tasks';
-  const trelloApiRoot = 'https://my-application-g69u.onrender.com/v1/trello';
+  const trelloApiRoot = 'https://my-application-g69u.onrender.com/v1/tasks';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
